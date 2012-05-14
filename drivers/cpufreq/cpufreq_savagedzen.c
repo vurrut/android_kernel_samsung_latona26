@@ -581,7 +581,7 @@ static int cpufreq_governor_savagedzen(struct cpufreq_policy *new_policy,
                 unsigned int event)
 {
         unsigned int cpu = new_policy->cpu;
-        	unsigned int min_freq = ~0;
+		unsigned int min_freq = ~0;
 		unsigned int max_freq = 0;
 		unsigned int i;
 		struct cpufreq_frequency_table *freq_table;
