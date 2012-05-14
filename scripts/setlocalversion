@@ -41,7 +41,7 @@ scm_version()
 	if test "$1" = "--short"; then
 		short=true
 	fi
-
+if test "$1" = "--git"; then
 	# Check for git and a git repo.
 	if head=`git rev-parse --verify --short HEAD 2>/dev/null`; then
 
@@ -103,7 +103,7 @@ scm_version()
 		# All done with mercurial
 		return
 	fi
-
+fi
 	# Check for svn and a svn repo.
 	if rev=`svn info 2>/dev/null | grep '^Last Changed Rev'`; then
 		rev=`echo $rev | awk '{print $NF}'`
