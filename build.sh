@@ -6,7 +6,7 @@ make mrproper
 
 # Set config
 make latona_galaxysl_defconfig
-make menuconfig
+#make menuconfig
 # Make modules
 nice -n 10 make -j16 modules
 
