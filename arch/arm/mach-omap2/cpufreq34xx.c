@@ -114,11 +114,11 @@ static struct omap_opp_def __initdata omap36xx_opp_def_list[] = {
 	/* DSP OPP4 - OPP-SB */
 	OMAP_OPP_DEF("iva", true, 800000000, 1350000),
 	/* DSP OPP5 */
-	OMAP_OPP_DEF("iva", true, 860000000, 1370000),
+	OMAP_OPP_DEF("iva", true, 810000000, 1370000),
 	/* DSP OPP6 */
-	OMAP_OPP_DEF("iva", true, 870000000, 1380000),
+	OMAP_OPP_DEF("iva", true, 815000000, 1380000),
 	/* DSP OPP7 */
-	OMAP_OPP_DEF("iva", true, 880000000, 1455000),
+	OMAP_OPP_DEF("iva", true, 820000000, 1455000),
 };
 static u32 omap36xx_opp_def_size = ARRAY_SIZE(omap36xx_opp_def_list);
 
